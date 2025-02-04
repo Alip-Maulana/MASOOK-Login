@@ -44,7 +44,7 @@ test('LOG-Password-Invalid', async ({ page }) => {
 
 });
 
-test("LOG-Empty", async ({ page }) => {
+test("LOG-EmptyALL", async ({ page }) => {
   await page.goto("https://sim.dev.masook.id/#/login");
   await expect(page).toHaveURL("https://sim.dev.masook.id/#/login");
 
